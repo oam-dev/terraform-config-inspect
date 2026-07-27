@@ -63,7 +63,7 @@ func LoadModuleFromFile(file *hcl.File, mod *Module) hcl.Diagnostics {
 
 		case "terraform":
 
-			if mod.RequiredCore == nil  || mod.RequiredProviders == nil  {
+			if mod.RequiredProviders == nil {
 				break
 			}
 			content, _, contentDiags := block.Body.PartialContent(terraformBlockSchema)
