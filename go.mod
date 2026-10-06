@@ -11,10 +11,10 @@ require (
 require (
 	github.com/agext/levenshtein v1.2.2 // indirect
 	github.com/apparentlymart/go-textseg v1.0.0 // indirect
-	github.com/google/go-cmp v0.3.0 // indirect
+	github.com/google/go-cmp v0.6.0 // indirect
 	github.com/kylelemons/godebug v1.1.0 // indirect
 	github.com/mitchellh/go-wordwrap v1.0.0 // indirect
-	golang.org/x/text v0.3.2 // indirect
+	golang.org/x/text v0.42.0 // indirect
 )
 
-go 1.25.13
+go 1.27.1
